@@ -1,0 +1,243 @@
+token: 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
+DS-Video-Streaming-System:
+  url: https://github.com/AnjanaIshara/DS-Video-Streaming-System.git
+  branches:
+  - main
+Bankers-Algorithm-in-Cpp:
+  url: https://github.com/IsuruMS/Bankers-Algorithm-in-Cpp.git
+  branches:
+  - master
+brainSlicer:
+  url: https://github.com/IsuruMS/brainSlicer.git
+  branches:
+  - main
+Calculate-formulae-using-stack:
+  url: https://github.com/IsuruMS/Calculate-formulae-using-stack.git
+  branches:
+  - master
+codeBase:
+  url: https://github.com/IsuruMS/codeBase.git
+  branches:
+  - master
+Find-All-Occurances-of-A-Number-In-a-Matrix:
+  url: https://github.com/IsuruMS/Find-All-Occurances-of-A-Number-In-a-Matrix.git
+  branches:
+  - master
+Football_Scorecard:
+  url: https://github.com/IsuruMS/Football_Scorecard.git
+  branches:
+  - master
+Implementation-of-3-Pipes:
+  url: https://github.com/IsuruMS/Implementation-of-3-Pipes.git
+  branches:
+  - master
+inspinia:
+  url: https://github.com/IsuruMS/inspinia.git
+  branches:
+  - gh-pages
+  - master
+IntroJenkins:
+  url: https://github.com/IsuruMS/IntroJenkins.git
+  branches:
+  - master
+  - release/1.0.2
+  - release/1.0.3
+  - release/1.1
+  - release/1.2
+  - release/1.2.1
+Linked-List:
+  url: https://github.com/IsuruMS/Linked-List.git
+  branches:
+  - master
+Matrix-Multiplication-Multithreaded:
+  url: https://github.com/IsuruMS/Matrix-Multiplication-Multithreaded.git
+  branches:
+  - master
+MonteCarloPiEstimation:
+  url: https://github.com/IsuruMS/MonteCarloPiEstimation.git
+  branches:
+  - master
+Printing-Star-Patterns:
+  url: https://github.com/IsuruMS/Printing-Star-Patterns.git
+  branches:
+  - master
+QuizBackend:
+  url: https://github.com/SupulCFG/QuizBackend.git
+  branches:
+  - 2021-quiz-dev
+  - 2021-quiz-dev-quiz-admins
+  - main
+  - quiz-2020-archive
+Rate-Monotonic-Algorithm:
+  url: https://github.com/IsuruMS/Rate-Monotonic-Algorithm.git
+  branches:
+  - master
+Searching-Algorithms:
+  url: https://github.com/IsuruMS/Searching-Algorithms.git
+  branches:
+  - master
+Sorting-Algorithms:
+  url: https://github.com/IsuruMS/Sorting-Algorithms.git
+  branches:
+  - master
+Stack-Implementation:
+  url: https://github.com/IsuruMS/Stack-Implementation.git
+  branches:
+  - master
+sudoku:
+  url: https://github.com/IsuruMS/sudoku.git
+  branches:
+  - main
+  - master
+trafficManagementSystem:
+  url: https://github.com/IsuruMS/trafficManagementSystem.git
+  branches:
+  - main
+usb_cam:
+  url: https://github.com/IsuruMS/usb_cam.git
+  branches:
+  - develop
+  - fix/camera_info_manager
+  - master
+  - ros2
+audaxVQuiz:
+  url: https://github.com/SupulCFG/audaxVQuiz.git
+  branches:
+  - master
+  - raven
+seds-juniors-astronight:
+  url: https://github.com/SupulCFG/seds-juniors-astronight.git
+  branches:
+  - 2021-astronight-dev
+  - archive-2020
+  - main
+opencv_extra:
+  url: https://github.com/opencv/opencv_extra.git
+  branches:
+  - '2.4'
+  - '3.4'
+  - 4.x
+  - 5.x
+  - master
+  - next
+opencv:
+  url: https://github.com/opencv/opencv.git
+  branches:
+  - '2.4'
+  - '3.4'
+  - 4.x
+  - 5.x
+  - master
+  - next
+opencv_attic:
+  url: https://github.com/opencv/opencv_attic.git
+  branches:
+  - '2.2'
+  - '2.3'
+  - '2.4'
+  - FLANN_1.6
+  - HOGCascade
+  - HOGCascade@4407
+  - MACOSX_DEVELOPMENT
+  - OPENCV_1_0
+  - OpenCV4Tegra2.3.2
+  - OpenCV4Tegra2.3.2@7128
+  - PAS
+  - android_video_writer
+  - android_video_writer@8813
+  - android_video
+  - android_video@8508
+  - android-experimental
+  - calibration
+  - f2d_ros_check
+  - features2d_dmatch
+  - features2d_mod
+  - features2d_modif
+  - features2d
+  - flann
+  - ios
+  - master
+  - ocl
+  - ocv_android_service
+  - ocv_android_service@8205
+  - opencv_highgui_gpu
+  - opencv_highgui_gpu@6906
+opencv_contrib:
+  url: https://github.com/opencv/opencv_contrib.git
+  branches:
+  - '3.4'
+  - 4.x
+  - 5.x
+  - master
+  - next
+opencv_for_ios_book_samples:
+  url: https://github.com/opencv/opencv_for_ios_book_samples.git
+  branches:
+  - master
+opencv_3rdparty:
+  url: https://github.com/opencv/opencv_3rdparty.git
+  branches:
+  - clapack
+  - contrib_face_alignment
+  - contrib_face_alignment_20170818
+  - contrib_xfeatures2d_boostdesc
+  - contrib_xfeatures2d_boostdesc_20161012
+  - contrib_xfeatures2d_vgg
+  - contrib_xfeatures2d_vgg_20160317
+  - dnn_objdetect
+  - dnn_objdetect_20170827
+  - dnn_samples_face_detector
+  - dnn_samples_face_detector_20170830
+  - dnn_samples_face_detector_20180205_fp16
+  - dnn_samples_face_detector_20180220_uint8
+  - ffmpeg/master
+  - ffmpeg/master_20150703
+  - ffmpeg/master_20160715
+  - ffmpeg/master_20160908
+  - ffmpeg/master_20161202
+  - ffmpeg/master_20170418
+  - ffmpeg/master_20170704
+  - ffmpeg/master_20171009
+  - ffmpeg/master_20180220_src
+  - ffmpeg/master_20180220
+  - ffmpeg/master_20180918_src
+  - ffmpeg/master_20180918
+  - ffmpeg/master_20181106_src
+  - ffmpeg/master_20181106
+  - ffmpeg/master_20190616_src
+  - ffmpeg/master_20190616
+  - ffmpeg/master_20190910_src
+jetson-screencasts-sources:
+  url: https://github.com/opencv/jetson-screencasts-sources.git
+  branches:
+  - master
+opencv-python:
+  url: https://github.com/opencv/opencv-python.git
+  branches:
+  - '3.4'
+  - '33'
+  - feat/aarch64
+  - feat/manylinux2014
+  - feat/python39
+  - feat/qt5
+  - feat/sdist
+  - gs/test-github-actions
+  - gs/update-3.4
+  - gs/update-opencv-3.4-license
+  - master
+ade:
+  url: https://github.com/opencv/ade.git
+  branches:
+  - master
+  - release_0.1
+open_vision_capsules:
+  url: https://github.com/opencv/open_vision_capsules.git
+  branches:
+  - feature/poetry
+  - jetson
+  - master
+  - tensorrt_backend
+opencv_zoo:
+  url: https://github.com/opencv/opencv_zoo.git
+  branches:
+  - master
