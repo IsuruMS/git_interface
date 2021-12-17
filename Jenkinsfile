@@ -1,12 +1,5 @@
 pipeline {
     agent any
-    parameters {
-        choice(name: 'SOURCE', choices: ['one', 'two', 'three'], description: 'Name of the source branch')
-        choice(name: 'REPO', choices: ['four', 'five', 'six'], description: 'Name of the source repo')
-
-        string(name: 'TARGET', defaultValue: '', description: 'Name of the target branch')
-    }
-
     stages {
         stage ('Git Checkout Repo') {
             steps {
