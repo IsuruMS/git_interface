@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage ('Git Checkout Repo') {
             steps {
+                bat "rmdir /s /q git_interface"
                 bat "git clone https://github.com/IsuruMS/git_interface.git"
             }
         }
