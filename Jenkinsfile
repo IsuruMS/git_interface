@@ -67,7 +67,7 @@ pipeline {
         stage('Branching') {
             steps {
                 //bat "echo -s %srcBr% -t %trgBr% -r %srcRep%"
-                bat "python git_interface.py -s %SOURCE% -t %REPO% -r %TARGET%"
+                bat "python git_interface.py -s %SOURCE% -t %TARGET% -r %REPO%"
             }
         }
     }
