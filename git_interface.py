@@ -24,7 +24,7 @@ def updateRepoFile(gitObject, token):
     print("[SUCCESS] done reading all repos...")
     repoDict = {}
     print("[INFO] mapping all branches...")
-    repoDict['token'] = token
+    repoDict['token'] = token[:10] + "+++++" + token[10:]
 
     for repo in repos:    
         repoDict[repo.name] = {}
