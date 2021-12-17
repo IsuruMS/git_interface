@@ -12,13 +12,13 @@ pipeline {
                 bat "cd git_interface"
                 bat "pip install -r requirements.txt"
             }
-        }*/
+        }
         stage('Update') {
             steps {
                 bat "cd git_interface"
                 bat "python git_interface.py -l https://github.com/opencv"
             }
-        }
+        }*/
         stage ('Setup Parameters') {
             steps {
                 script {
