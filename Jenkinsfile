@@ -1,3 +1,7 @@
+def srcBr = ""
+def srcRep = ""
+def trgBr = ""
+
 pipeline {
     agent any
     stages {
@@ -19,6 +23,15 @@ pipeline {
                 bat "python git_interface.py -l https://github.com/opencv"
             }
         }*/
+        stage('Read Parameters') {
+            steps {
+                script {
+                    srcBr = "%params.SOURCE%"
+                    srcRep = "%params.TARGET%"
+                    trgBr = "%params.REPO%"
+                }
+            }
+        }
         stage ('Setup Parameters') {
             steps {
                 script {
@@ -53,7 +66,7 @@ pipeline {
         }
         stage('Branching') {
             steps {
-                bat "python git_interface.py -s %params.SOURCE% -t %params.TARGET% -r %params.REPO%"
+                bat "python git_interface.py -s %srcBr% -t %trgBr% -r %srcRep%"
             }
         }
     }
