@@ -16,7 +16,7 @@ pipeline {
         stage('Update') {
             steps {
                 bat "cd git_interface"
-                bat "python git_interface.py"
+                bat "python git_interface.py -u"
             }
         }
         stage ('Setup Parameters') {
@@ -39,6 +39,8 @@ pipeline {
                             }
                         }
                     }
+                    println srcList
+                    println repList
                     properties ([
                         parameters ([
                             choice(name: 'SOURCE', choices: srcList, description: 'Name of the source branch'),
