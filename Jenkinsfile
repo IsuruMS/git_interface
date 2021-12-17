@@ -15,6 +15,7 @@ pipeline {
         }
         stage ('Install Requirements') {
             steps {
+                bat "cd git_interface"
                 bat "pip install -r requirements.txt"
             }
         }
