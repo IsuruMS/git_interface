@@ -16,7 +16,7 @@ pipeline {
         stage('Update') {
             steps {
                 bat "cd git_interface"
-                bat "python git_interface.py -l"
+                bat "python git_interface.py -l https://github.com/opencv"
             }
         }
         stage ('Setup Parameters') {
