@@ -18,38 +18,40 @@ def updateRepoFile(gitObject, token):
     gitObject   - Object created from the token
     token       - token of the user
     """
-    try:
-        print("[INFO] reading all repos...")
-        repos = gitObject.get_user().get_repos()
-        print("[SUCCESS] done reading all repos...")
-        repoDict = {}
-        print("[INFO] mapping all branches...")
-        for repo in repos:
-            repoDict['token'] = token
-            repoDict[repo.name] = {}
-            repoURL = repo.url.replace("api.", "")
-            repoURL = repoURL.replace("repos/", "")
-            repoURL += ".git"
-            repoDict[repo.name]['url'] = repoURL
-            
-            branches = list(repo.get_branches())
-            branchList = []
-            for branch in branches:
-                branchList.append(branch.name)
-            
-            repoDict[repo.name]['branches'] = branchList
-        print("[SUCCESS] done mapping all branches...")
+    #try:
+    print("[INFO] reading all repos...")
+    repos = gitObject.get_user().get_repos()
+    print("[SUCCESS] done reading all repos...")
+    repoDict = {}
+    print("[INFO] mapping all branches...")
+    repoDict['token'] = token
 
-        print("[INFO] updating settings.yaml file...")
-        with io.open('settings.yaml', 'w', encoding='utf8') as outfile:
-            yaml.safe_dump(repoDict, outfile, default_flow_style=False, allow_unicode=True, sort_keys=False, line_break='\n')
+    for repo in repos:    
+        repoDict[repo.name] = {}
+        repoURL = repo.url.replace("api.", "")
+        repoURL = repoURL.replace("repos/", "")
+        repoURL += ".git"
+        repoDict[repo.name]['url'] = repoURL
         
-        return True
+        branches = list(repo.get_branches())
+        branchList = []
+        for branch in branches:
+            branchList.append(branch.name)
+        
+        repoDict[repo.name]['branches'] = branchList
+    print("[SUCCESS] done mapping all branches...")
+
+    print("[INFO] updating settings.yaml file...")
+    with io.open('settings.yaml', 'w', encoding='utf8') as outfile:
+        yaml.safe_dump(repoDict, outfile, default_flow_style=False, allow_unicode=True, sort_keys=False, line_break='\n')
+    
+    return True
+'''
     except Exception as e:
         print("[ERROR]", e.__class__, "exception thrown")
         print("Please retry!!!")
         return False
-
+'''
 
 def updateWithLink(link, token):
     """
