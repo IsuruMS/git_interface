@@ -46,9 +46,8 @@ pipeline {
                     }
                     properties ([
                         parameters ([
-                            choice(name: 'SOURCE', choices: srcList, description: 'Name of the source branch')
-                            choice(name: 'REPO', choices: repList, description: 'Name of the source repo')
-
+                            choice(name: 'SOURCE', choices: srcList, description: 'Name of the source branch'),
+                            choice(name: 'REPO', choices: repList, description: 'Name of the source repo'),
                             string(name: 'TARGET', defaultValue: '', description: 'Name of the target branch')
                         ])
                     ])
