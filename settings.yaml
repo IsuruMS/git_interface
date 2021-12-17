@@ -1,4 +1,4 @@
-token: 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
+token: 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
 DS-Video-Streaming-System:
   url: https://github.com/AnjanaIshara/DS-Video-Streaming-System.git
   branches:
@@ -27,6 +27,10 @@ Football_Scorecard:
   url: https://github.com/IsuruMS/Football_Scorecard.git
   branches:
   - master
+git_interface:
+  url: https://github.com/IsuruMS/git_interface.git
+  branches:
+  - main
 Implementation-of-3-Pipes:
   url: https://github.com/IsuruMS/Implementation-of-3-Pipes.git
   branches:
@@ -42,9 +46,14 @@ IntroJenkins:
   - master
   - release/1.0.2
   - release/1.0.3
+  - release/1.0.23
   - release/1.1
   - release/1.2
   - release/1.2.1
+  - release/1.2.2
+  - release/1.3.0
+  - release/1.3.1
+  - release/1.3.12
 Linked-List:
   url: https://github.com/IsuruMS/Linked-List.git
   branches:
@@ -111,133 +120,3 @@ seds-juniors-astronight:
   - 2021-astronight-dev
   - archive-2020
   - main
-opencv_extra:
-  url: https://github.com/opencv/opencv_extra.git
-  branches:
-  - '2.4'
-  - '3.4'
-  - 4.x
-  - 5.x
-  - master
-  - next
-opencv:
-  url: https://github.com/opencv/opencv.git
-  branches:
-  - '2.4'
-  - '3.4'
-  - 4.x
-  - 5.x
-  - master
-  - next
-opencv_attic:
-  url: https://github.com/opencv/opencv_attic.git
-  branches:
-  - '2.2'
-  - '2.3'
-  - '2.4'
-  - FLANN_1.6
-  - HOGCascade
-  - HOGCascade@4407
-  - MACOSX_DEVELOPMENT
-  - OPENCV_1_0
-  - OpenCV4Tegra2.3.2
-  - OpenCV4Tegra2.3.2@7128
-  - PAS
-  - android_video_writer
-  - android_video_writer@8813
-  - android_video
-  - android_video@8508
-  - android-experimental
-  - calibration
-  - f2d_ros_check
-  - features2d_dmatch
-  - features2d_mod
-  - features2d_modif
-  - features2d
-  - flann
-  - ios
-  - master
-  - ocl
-  - ocv_android_service
-  - ocv_android_service@8205
-  - opencv_highgui_gpu
-  - opencv_highgui_gpu@6906
-opencv_contrib:
-  url: https://github.com/opencv/opencv_contrib.git
-  branches:
-  - '3.4'
-  - 4.x
-  - 5.x
-  - master
-  - next
-opencv_for_ios_book_samples:
-  url: https://github.com/opencv/opencv_for_ios_book_samples.git
-  branches:
-  - master
-opencv_3rdparty:
-  url: https://github.com/opencv/opencv_3rdparty.git
-  branches:
-  - clapack
-  - contrib_face_alignment
-  - contrib_face_alignment_20170818
-  - contrib_xfeatures2d_boostdesc
-  - contrib_xfeatures2d_boostdesc_20161012
-  - contrib_xfeatures2d_vgg
-  - contrib_xfeatures2d_vgg_20160317
-  - dnn_objdetect
-  - dnn_objdetect_20170827
-  - dnn_samples_face_detector
-  - dnn_samples_face_detector_20170830
-  - dnn_samples_face_detector_20180205_fp16
-  - dnn_samples_face_detector_20180220_uint8
-  - ffmpeg/master
-  - ffmpeg/master_20150703
-  - ffmpeg/master_20160715
-  - ffmpeg/master_20160908
-  - ffmpeg/master_20161202
-  - ffmpeg/master_20170418
-  - ffmpeg/master_20170704
-  - ffmpeg/master_20171009
-  - ffmpeg/master_20180220_src
-  - ffmpeg/master_20180220
-  - ffmpeg/master_20180918_src
-  - ffmpeg/master_20180918
-  - ffmpeg/master_20181106_src
-  - ffmpeg/master_20181106
-  - ffmpeg/master_20190616_src
-  - ffmpeg/master_20190616
-  - ffmpeg/master_20190910_src
-jetson-screencasts-sources:
-  url: https://github.com/opencv/jetson-screencasts-sources.git
-  branches:
-  - master
-opencv-python:
-  url: https://github.com/opencv/opencv-python.git
-  branches:
-  - '3.4'
-  - '33'
-  - feat/aarch64
-  - feat/manylinux2014
-  - feat/python39
-  - feat/qt5
-  - feat/sdist
-  - gs/test-github-actions
-  - gs/update-3.4
-  - gs/update-opencv-3.4-license
-  - master
-ade:
-  url: https://github.com/opencv/ade.git
-  branches:
-  - master
-  - release_0.1
-open_vision_capsules:
-  url: https://github.com/opencv/open_vision_capsules.git
-  branches:
-  - feature/poetry
-  - jetson
-  - master
-  - tensorrt_backend
-opencv_zoo:
-  url: https://github.com/opencv/opencv_zoo.git
-  branches:
-  - master

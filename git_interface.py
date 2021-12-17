@@ -170,7 +170,7 @@ def getAccessToken():
     with open("settings.yaml", 'r') as stream:
         data_loaded = yaml.safe_load(stream)
 
-    return data_loaded['token']
+    return data_loaded['token'].replace("+++++", "")
 
 
 def printHelp():
