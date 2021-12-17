@@ -26,9 +26,9 @@ pipeline {
         stage('Read Parameters') {
             steps {
                 script {
-                    srcBr = "%params.SOURCE%"
-                    srcRep = "%params.TARGET%"
-                    trgBr = "%params.REPO%"
+                    srcBr = "%SOURCE%"
+                    srcRep = "%TARGET%"
+                    trgBr = "%REPO%"
                 }
             }
         }
@@ -66,8 +66,8 @@ pipeline {
         }
         stage('Branching') {
             steps {
-                bat "echo -s %srcBr% -t %trgBr% -r %srcRep%"
-                bat "python git_interface.py -s %srcBr% -t %trgBr% -r %srcRep%"
+                //bat "echo -s %srcBr% -t %trgBr% -r %srcRep%"
+                bat "python git_interface.py -s %SOURCE% -t %REPO% -r %TARGET%"
             }
         }
     }
