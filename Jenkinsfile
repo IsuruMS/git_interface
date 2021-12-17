@@ -7,12 +7,12 @@ pipeline {
                 bat "git clone https://github.com/IsuruMS/git_interface.git"
             }
         }
-        stage ('Install Requirements') {
+        /*stage ('Install Requirements') {
             steps {
                 bat "cd git_interface"
                 bat "pip install -r requirements.txt"
             }
-        }
+        }*/
         stage('Update') {
             steps {
                 bat "cd git_interface"
