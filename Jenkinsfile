@@ -16,7 +16,7 @@ pipeline {
         stage('Update') {
             steps {
                 bat "cd git_interface"
-                bat "python git_interface.py -u"
+                bat "python git_interface.py -l"
             }
         }
         stage ('Setup Parameters') {
